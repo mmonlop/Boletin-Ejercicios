@@ -38,7 +38,16 @@ def ordenar_palabras():
     print(diccionario_ordenado)
 
 def traduccir_frase(frase):
-    pass
+    palabras = frase.split(" ")
+    frase_traducida = ""
+
+    for palabra in palabras:
+        if palabra in diccionario:
+            frase_traducida += diccionario[palabra] + " "
+        else:
+            frase_traducida+= palabra + " "
+
+    print(frase_traducida)
 
 
 def main():
