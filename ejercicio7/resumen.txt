@@ -1,0 +1,11 @@
+RESUMEN DE ACCESOS 
+------------------ 
+
+Total de accesos: 6 
+Usuarios diferentes: 3 
+
+ana: 3 veces 
+luis: 2 veces 
+marta: 1 veces 
+
+Usuario con mas accesos: ana

@@ -64,7 +64,6 @@ def main():
                 print(empresa.calcular_alquiler(dias,vehiculo_a_consultar))
             else:
                 print("El vehiculo no existe")
-
         elif op == 7:
             break
 
